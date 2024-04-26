@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi-Value Form</title>
+<link rel="stylesheet" type="text/css" href="ticket.css">
+</head>
+<body>
+    <h1>Zoo Ticket System</h1>
+    <form id="multi-value-form">
+        <div>
+            <label for="field">Enter Name:</label><br>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="field">Enter Age:</label><br>
+            <input type="number" id="age" name="age">
+        </div>
+        <button type="button" class="add-button" onclick="addField()">Add</button><br><br>
+        <div class="row">
+            <div class="col">
+                <div class="submit-button">
+                    <input type="submit" value="Submit" />
+                </div>
+            </div>
+            <div class="col">
+                <div class="validate-button">
+                    <input type="button" value="Validate" />
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <div id="values-container">
+        <div id="values-list"></div>
+    </div>
+
+    <script src="ticket.js"></script>
+</body>
+</html>

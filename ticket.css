@@ -1,0 +1,17 @@
+#values-container {
+    display: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    margin-right: 6%;
+}
+.add-button {
+    color: white;
+    background-color: rgb(68, 68, 151);
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-top: 6px;
+}
